@@ -198,7 +198,6 @@ class Game:
                 (m, px, py) = self.max_alpha_beta(-2, 2)
                 self.current_state[px][py] = 'O'
                 self.player_turn = 'X'
-
 g = Game()
 g.play_alpha_beta()
 
